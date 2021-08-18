@@ -17,3 +17,27 @@ export const getSystems = async () => {
     const data = await resp.json();
     return data;
 };
+
+export const updateVideogame = async (obj) => {
+    const resp = await fetch(`${URL}/videogames/${obj.id}`, {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(obj),
+    });
+    const data = await resp.json();
+    return data;
+}
+
+export const createVideogame = async (obj) => {
+    const resp = await fetch(`${URL}/videogames/`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(obj),
+    });
+    const data = await resp.json();
+    return data;
+}
