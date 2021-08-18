@@ -1,0 +1,42 @@
+header {
+    background-color: rgb(10, 8, 31);
+    
+}
+.title{
+    color: white;
+    margin-left: 100px;
+    text-decoration: none;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(2, 0, 5);
+    padding: 10px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.home{
+    
+    text-decoration: none;
+}
+
+.create{
+   
+    text-decoration: none;
+}
+
+.home-link{
+    color: white;
+}
+
+.create-link{
+    color: white;
+}
+
+.bonfire{
+    display:flex;
+    justify-content: center;
+}

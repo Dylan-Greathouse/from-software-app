@@ -1,0 +1,16 @@
+h1{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+img{
+   
+}
+
+.image {
+    border: solid;
+    border-width: 10px;
+    display: flex;
+    justify-content: center;
+}

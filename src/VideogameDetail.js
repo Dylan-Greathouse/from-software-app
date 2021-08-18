@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { getVideogame, getSystems } from './utils.js';
+import './VideogameDetail.css';
+import './App.css';
 
 class VideogameDetail extends Component {
     state = {
@@ -22,10 +24,13 @@ class VideogameDetail extends Component {
     render() {
         return (
             <>
-                <h1>The Deets</h1>
-                <h2>{this.state.name}</h2>
-                <img src={this.state.image_url} alt={this.state.name} />
-
+                
+                <section className='title'>
+                <h1>{this.state.name}</h1>
+                </section>
+                <section className='image'>
+                <img src={this.state.image_url} width='700' alt={this.state.name} />
+                </section>
             </>
         )
     }
