@@ -1,5 +1,8 @@
 header {
-    background-color: rgb(10, 8, 31);
+    background-image: url('https://i.imgur.com/brjHeVf.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
     
 }
 .title{
@@ -39,4 +42,13 @@ header {
 .bonfire{
     display:flex;
     justify-content: center;
+    z-index: 1;
+}
+
+.bonfire-title{
+    background-image: url('https://thumbs.gfycat.com/ElegantColdHorsefly-size_restricted.gif');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    padding-bottom: 10px;
 }

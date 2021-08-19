@@ -9,11 +9,13 @@ class Header extends Component {
             <header>
                 <div className='links'>
                 <NavLink className='home-link' activeClassName='home' exact to='/'>Home</NavLink>
+                <section className='bonfire-title'>
                 <h1 className='title'>FromSoftware Games</h1>
+                </section>
                 <NavLink className='create-link' activeClassName='create' to='/create'>Add New Game</NavLink>
                 </div>
                 <section className='bonfire'>
-                <img src='https://thumbs.gfycat.com/ElegantColdHorsefly-size_restricted.gif' width='200' alt='bonfire'/>
+                
                 </section>
             </header>
          );

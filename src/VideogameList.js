@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { getVideogames } from './utils.js';
+import './VideogameList.css';
 
 class VideogameList extends Component {
     state = { videogames: [] };
@@ -18,7 +19,7 @@ class VideogameList extends Component {
                             <Link to={`/videogames/${item.id}`}>{item.name}</Link>
                         </h1>
                         <p>
-                            Released in {item.year_released} on the {item.system} and it is {item.played ? 'true' : 'false'} that I have played the game.
+                            Released in {item.year_released} on the {item.system} and it is {item.played.toString()} that I have played the game.
                         </p>
                     </div>
                 ))}

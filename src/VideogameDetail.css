@@ -1,16 +1,53 @@
-h1{
+h2{
     font-size: 30px;
     text-decoration: underline;
     text-align: center;
 }
 
-img{
-   
+.title-section {
+background-color:white;
 }
+
 
 .image {
     border: solid;
     border-width: 10px;
+    
+}
+
+.image-section {
     display: flex;
     justify-content: center;
+}
+
+.forms{
+    margin: 10px;
+}
+
+.image-input {
+    width: 300px;
+}
+
+#update-videogame{
+    background-color: antiquewhite;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.message {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.message.success {
+    background-color: green;
+}
+
+.message.error {
+    background-color: red;
 }
